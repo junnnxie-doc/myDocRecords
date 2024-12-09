@@ -36,6 +36,7 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables'
 ]
+master_doc='index'
 # source_suffix = {
 #     '.rst': 'restructuredtext',
 #     '.txt': 'markdown',
