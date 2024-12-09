@@ -33,6 +33,11 @@ html_static_path = ['_static']
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 extensions = [
-    'recommonmark',
+    'myst_parser',
     'sphinx_markdown_tables'
 ]
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
